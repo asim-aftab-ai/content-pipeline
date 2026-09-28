@@ -1,0 +1,3 @@
+# Requirements for content-pipeline
+# Install using: uv pip install -r requirements.txt
+# Or add packages via uv: uv add <package>
