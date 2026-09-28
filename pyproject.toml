@@ -1,7 +1,12 @@
 [project]
 name = "content-pipeline"
 version = "0.1.0"
-description = "Add your description here"
+description = "A 3-step automated AI content creation pipeline demonstrating prompt chaining"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "streamlit>=1.40.0",
+    "python-dotenv>=1.0.0",
+    "google-genai>=1.0.0",
+    "openai>=1.50.0",
+]

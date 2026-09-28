@@ -1,3 +1,7 @@
-# Requirements for content-pipeline
-# Install using: uv pip install -r requirements.txt
-# Or add packages via uv: uv add <package>
+# Project: Content Creation Pipeline
+# Requirements for running the 3-step prompt chaining pipeline and Streamlit UI
+
+streamlit>=1.40.0
+python-dotenv>=1.0.0
+google-genai>=1.0.0
+openai>=1.50.0
